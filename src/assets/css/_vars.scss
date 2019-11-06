@@ -1,0 +1,25 @@
+// BREAKPOINTS
+$mobile-size: 320px;
+$tablet-size: 768px;
+$desktop-size: 1130px;
+
+// MEDIA QUERIES
+$tablet: "(min-width: #{$mobile-size}) and (max-width: #{$tablet-size})";
+$desktop: "(min-width: #{$tablet-size})";
+
+// COLORS
+$white: #fff;
+$black: #000;
+$light-grey: #fafafa;
+$medium-grey: #777;
+$dark-grey: #2A2D31;
+$border-grey: #dadada;
+$primary: #45BEDE;
+$success: #2BDE89;
+$warning: #E7AE5F;
+$danger: #FD5050;
+$text: #7A7A7A;
+
+// FONTS
+$corporate-font: 'Poppins', sans-serif;
+$font-size: 16px;

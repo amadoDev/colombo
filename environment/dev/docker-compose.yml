@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ../../
+      dockerfile: environment/Dockerfile
+    container_name: colombo
+    environment:
+      - PORT=4000
+    env_file: .env
+    ports:
+      - "4000:4000"
+    volumes:
+      - ../../src:/home/application/current
+    entrypoint:
+      - npm
+      - run
+      - start:prod
+
